@@ -1,0 +1,8 @@
+{
+  "name": "aicentre/aicentre-splash",
+  "description": "A simple splash page for AI Centre",
+  "type": "project",
+  "require": {
+    "php": "^7.4 || ^8.0"
+  }
+}

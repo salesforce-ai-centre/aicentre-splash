@@ -1,15 +1,28 @@
-*.class
+# Heroku
+.env
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# Composer
+/vendor/
+composer.phar
+composer.lock
 
-# IDE and filesystem #
-.idea
-.idea/*
+# PHP
+*.log
+*.cache
 .DS_Store
-*.iml
-target
-target/*
+.idea/
+*.swp
+*.swo
+*~
 
+# VSCode
+.vscode/
+
+# OS Files
+Thumbs.db
+ehthumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
